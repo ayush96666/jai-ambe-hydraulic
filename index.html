@@ -83,7 +83,7 @@
     </div>
   </aside>
 
-<!-- Main Navigation Header -->
+ <!-- Main Navigation Header -->
   <header class="sticky top-0 z-40 bg-slate-900/95 backdrop-blur-md border-b border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-20">
@@ -104,7 +104,7 @@
           </div>
         </a>
 
-        <!-- Desktop Navigation Links (Mobile screen par bilkul hidden) -->
+       <!-- Navigation Links -->
         <nav class="hidden xl:flex items-center space-x-6 text-sm font-medium">
           <a href="#about" class="text-slate-300 hover:text-amber-400 transition-colors">About</a>
           <a href="#products" class="text-slate-300 hover:text-amber-400 transition-colors">Products & Hoses</a>
@@ -148,10 +148,18 @@
       </div>
     </div>
   </header>
-  <!-- Hero Section -->
-  <section class="relative custom-gradient-hero border-b border-slate-800 overflow-hidden">
-    <div class="absolute inset-0 grid-pattern opacity-40"></div>
-    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+
+
+  <!-- Hero Section with Full Pipe Background -->
+  <section class="relative min-h-[85vh] border-b border-slate-800 overflow-hidden flex items-center">
+    
+   <!-- Full Background Pipes Image -->
+    <img src="pipes.jpeg" alt="Hydraulic Hose Lineup" class="absolute inset-0 w-full h-full object-cover object-center opac
+    <!-- Dark Radial & Linear Overlay (Text clarity ke liye) -->
+    <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/90 to-slate-900/80 pointer-events-none"></di
+    <div class="absolute inset-0 grid-pattern opacity-25 pointer-events-none"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 w-full">
+   
       <div class="grid lg:grid-cols-12 gap-12 items-center">
         
         <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
@@ -759,7 +767,7 @@
             </div>
             <div>
               <label for="rfqCompany" class="block text-xs font-semibold text-slate-300 uppercase mb-1">Company / Transporter Name</label>
-              <input type="text" id="rfqCompany" placeholder="e.g. Your Company Name." class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:ring-2 focus:ring-amber-500">
+              <input type="text" id="rfqCompany" placeholder="e.g." class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:ring-2 focus:ring-amber-500">
             </div>
           </div>
 
